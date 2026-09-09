@@ -19,7 +19,7 @@
 %global __requires_exclude_from %{_javadir}/%{name}/jbr/.*|%{_javadir}/%{name}/lib/.*|%{_javadir}/%{name}/plugins/.*
 
 Name:          %{appname}-community
-Version:       2026.2.0.1
+Version:       2026.2.2
 Release:       1%{?dist}
 
 Summary:       Intelligent Python IDE
@@ -143,8 +143,8 @@ desktop-file-validate %{buildroot}%{_datadir}/applications/%{name}.desktop
 %doc Install-Linux-tar.txt
 
 %changelog
-* Tue Jul 28 2026 Elkhan Mammadli <elkhan.mammadli@protonmail.com> - 2026.2.0.1-1
-- Update to 2026.2.0.1
+* Tue Sep 08 2026 Elkhan Mammadli <elkhan.mammadli@protonmail.com> - 2026.2.2-1
+- Update to 2026.2.2
 
 * Tue Jul 21 2026 Elkhan Mammadli <elkhan.mammadli@protonmail.com> - 2026.2-1
 - Update to 2026.2
